@@ -1,15 +1,15 @@
 import turtle
-nosides = 8
+nosides = 15
 outlenght = 60
 inlenght = 20
 color1 = "blue"
 color2 = "red"
 turtle.penup()
 print(turtle.position())
-turtle.forward(-75)
+turtle.forward(-275)
 print(turtle.position())
 print(turtle.position())
-turtle.left(90)
+turtle.left(120)
 print(turtle.position())
 turtle.pendown()
 for step in range(nosides):
